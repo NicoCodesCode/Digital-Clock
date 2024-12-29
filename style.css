@@ -1,0 +1,73 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+  background-image: url(cat.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.absolute {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-inline: auto;
+  width: fit-content;
+}
+
+.clock {
+  font-size: 3rem;
+  padding: 12px 24px;
+  background-color: hsla(0, 0%, 75%, 0.4);
+  color: black;
+  border: 4px solid #222;
+  border-radius: 12px;
+  top: 75%;
+}
+
+button,
+button:visited {
+  font-size: 1.3rem;
+  padding: 8px;
+  border: 4px solid #222;
+  border-radius: 12px;
+  top: 2%;
+  cursor: pointer;
+}
+
+button:active {
+  opacity: 0.9;
+  color: #333;
+}
+
+.change-clock {
+  background-color: hsla(0, 0%, 90%, 0.7);
+}
+
+.buttons-container {
+  top: 88%;
+  display: flex;
+  gap: 10px;
+}
+
+.stopwatch-button {
+  font-size: 1.4rem;
+}
+
+.start {
+  background-color: hsla(100, 100%, 75%, 0.4);
+}
+
+.stop {
+  background-color: hsla(0, 100%, 75%, 0.4);
+}
+
+.reset {
+  background-color: hsla(60, 100%, 75%, 0.4);
+}

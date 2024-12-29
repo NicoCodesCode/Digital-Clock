@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="clock absolute" id="stopwatch-display">00:00:00:00</h1>
+    <a href="digital-clock.html">
+      <button type="button" class="change-clock absolute">Go to clock</button>
+    </a>
+    <div class="buttons-container absolute">
+      <button type="button" class="stopwatch-button start" onclick="start()">
+        Start
+      </button>
+      <button type="button" class="stopwatch-button stop" onclick="stop()">
+        Stop
+      </button>
+      <button type="button" class="stopwatch-button reset" onclick="reset()">
+        Reset
+      </button>
+    </div>
+    <script src="stopwatch-script.js"></script>
+  </body>
+</html>
